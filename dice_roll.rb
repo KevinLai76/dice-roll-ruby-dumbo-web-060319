@@ -2,10 +2,9 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-def roll(num1, num2)
+def roll
   result = 0
-  result += rand(num1..num2)
-  return result.to_i
+  result += rand(1..6)
+  return result
 end
 
-roll(1,6)
