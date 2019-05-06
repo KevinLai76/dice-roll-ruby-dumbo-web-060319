@@ -4,5 +4,5 @@
 
 def roll(range)
   result = []
-  
+  result << rand
 end
