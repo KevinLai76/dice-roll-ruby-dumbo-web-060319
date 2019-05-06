@@ -4,7 +4,7 @@
 
 def roll(num1, num2)
   
-  return rand(num1..num2)
+  return rand(#{num1}..#{num2})
  
 end
 
