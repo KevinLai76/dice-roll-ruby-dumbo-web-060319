@@ -5,7 +5,7 @@
 def roll(num1, num2)
   result = []
   result << rand(num1..num2)
-  return results
+  return result
 end
 
 roll(1,6)
