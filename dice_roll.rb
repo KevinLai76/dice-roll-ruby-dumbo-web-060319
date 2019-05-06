@@ -4,7 +4,7 @@
 
 def roll(num1, num2)
   result = 0
-  result += rand(#{num1}..#{num2})
+  result += rand(num1..num2)
   return result.to_i
 end
 
